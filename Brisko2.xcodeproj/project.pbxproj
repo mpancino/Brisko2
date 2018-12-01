@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C89B5DBF5A8A69F224E8637 /* libPods-Brisko2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1436FBDB9A9679FD16BE670 /* libPods-Brisko2.a */; };
+		391B6F2A21A96F6200FF08E4 /* OvenVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391B6F2921A96F6200FF08E4 /* OvenVCViewController.swift */; };
+		39208D28219851B70095EF76 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39208D27219851B70095EF76 /* Info.plist */; };
+		3971E0D22191ADE000967E74 /* newCookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3971E0D12191ADE000967E74 /* newCookViewController.swift */; };
+		398E38E32191A87F00AC65E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398E38E22191A87F00AC65E8 /* ViewController.swift */; };
+		39DB5637218B1BF9003B1A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB5636218B1BF9003B1A29 /* AppDelegate.swift */; };
+		39DB563C218B1BF9003B1A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DB563A218B1BF9003B1A29 /* Main.storyboard */; };
+		39DB563F218B1BF9003B1A29 /* Brisko2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39DB563D218B1BF9003B1A29 /* Brisko2.xcdatamodeld */; };
+		39DB5641218B1BFB003B1A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39DB5640218B1BFB003B1A29 /* Assets.xcassets */; };
+		39DB5644218B1BFB003B1A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39DB5642218B1BFB003B1A29 /* LaunchScreen.storyboard */; };
+		39DB564F218B1BFB003B1A29 /* Brisko2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB564E218B1BFB003B1A29 /* Brisko2Tests.swift */; };
+		39DB565A218B1BFB003B1A29 /* Brisko2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB5659218B1BFB003B1A29 /* Brisko2UITests.swift */; };
+		39E3C7E3218EEF06005A1D75 /* DataBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E3C7E2218EEF06005A1D75 /* DataBaseController.swift */; };
+		39E931DD218DC6AB002BE256 /* HistoryCookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E931DC218DC6AB002BE256 /* HistoryCookViewController.swift */; };
+		39FFA4032196FACD0048F69A /* DayAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FFA4012196FACC0048F69A /* DayAxisValueFormatter.swift */; };
+		39FFA4042196FACD0048F69A /* DateValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FFA4022196FACD0048F69A /* DateValueFormatter.swift */; };
+		39FFA4062197A6700048F69A /* LineGraphExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FFA4052197A66F0048F69A /* LineGraphExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39DB564B218B1BFB003B1A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DB562B218B1BF9003B1A29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB5632218B1BF9003B1A29;
+			remoteInfo = Brisko2;
+		};
+		39DB5656218B1BFB003B1A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DB562B218B1BF9003B1A29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39DB5632218B1BF9003B1A29;
+			remoteInfo = Brisko2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		391B6F2921A96F6200FF08E4 /* OvenVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvenVCViewController.swift; sourceTree = "<group>"; };
+		39208D27219851B70095EF76 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3971E0D12191ADE000967E74 /* newCookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newCookViewController.swift; sourceTree = "<group>"; };
+		398E38E22191A87F00AC65E8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39DB5633218B1BF9003B1A29 /* Brisko2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brisko2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DB5636218B1BF9003B1A29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39DB563B218B1BF9003B1A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39DB563E218B1BF9003B1A29 /* Brisko2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Brisko2.xcdatamodel; sourceTree = "<group>"; };
+		39DB5640218B1BFB003B1A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39DB5643218B1BFB003B1A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39DB564A218B1BFB003B1A29 /* Brisko2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brisko2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DB564E218B1BFB003B1A29 /* Brisko2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brisko2Tests.swift; sourceTree = "<group>"; };
+		39DB5650218B1BFB003B1A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39DB5655218B1BFB003B1A29 /* Brisko2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brisko2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DB5659218B1BFB003B1A29 /* Brisko2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brisko2UITests.swift; sourceTree = "<group>"; };
+		39DB565B218B1BFB003B1A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E3C7E2218EEF06005A1D75 /* DataBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseController.swift; sourceTree = "<group>"; };
+		39E931DC218DC6AB002BE256 /* HistoryCookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCookViewController.swift; sourceTree = "<group>"; };
+		39EE41E5218BD91300167D2B /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		39FFA4012196FACC0048F69A /* DayAxisValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayAxisValueFormatter.swift; sourceTree = "<group>"; };
+		39FFA4022196FACD0048F69A /* DateValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateValueFormatter.swift; sourceTree = "<group>"; };
+		39FFA4052197A66F0048F69A /* LineGraphExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphExtension.swift; sourceTree = "<group>"; };
+		D1436FBDB9A9679FD16BE670 /* libPods-Brisko2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brisko2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACAACB8890CC7D6A78A9CCB /* Pods-Brisko2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brisko2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brisko2/Pods-Brisko2.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2FAEE9B52C58BE49B38E2A /* Pods-Brisko2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brisko2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brisko2/Pods-Brisko2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39DB5630218B1BF9003B1A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C89B5DBF5A8A69F224E8637 /* libPods-Brisko2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB5647218B1BFB003B1A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB5652218B1BFB003B1A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39DB562A218B1BF9003B1A29 = {
+			isa = PBXGroup;
+			children = (
+				39DB5635218B1BF9003B1A29 /* Brisko2 */,
+				39DB564D218B1BFB003B1A29 /* Brisko2Tests */,
+				39DB5658218B1BFB003B1A29 /* Brisko2UITests */,
+				39DB5634218B1BF9003B1A29 /* Products */,
+				B2014B8409536BA6638F01DC /* Pods */,
+				7A68156C66106A94ED721173 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39DB5634218B1BF9003B1A29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DB5633218B1BF9003B1A29 /* Brisko2.app */,
+				39DB564A218B1BFB003B1A29 /* Brisko2Tests.xctest */,
+				39DB5655218B1BFB003B1A29 /* Brisko2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39DB5635218B1BF9003B1A29 /* Brisko2 */ = {
+			isa = PBXGroup;
+			children = (
+				39FFA4022196FACD0048F69A /* DateValueFormatter.swift */,
+				39FFA4012196FACC0048F69A /* DayAxisValueFormatter.swift */,
+				398E38E22191A87F00AC65E8 /* ViewController.swift */,
+				3971E0D12191ADE000967E74 /* newCookViewController.swift */,
+				39EE41E5218BD91300167D2B /* Bridging-Header.h */,
+				39DB5636218B1BF9003B1A29 /* AppDelegate.swift */,
+				39E3C7E2218EEF06005A1D75 /* DataBaseController.swift */,
+				39E931DC218DC6AB002BE256 /* HistoryCookViewController.swift */,
+				39208D27219851B70095EF76 /* Info.plist */,
+				39FFA4052197A66F0048F69A /* LineGraphExtension.swift */,
+				39DB563A218B1BF9003B1A29 /* Main.storyboard */,
+				391B6F2921A96F6200FF08E4 /* OvenVCViewController.swift */,
+				39DB5640218B1BFB003B1A29 /* Assets.xcassets */,
+				39DB5642218B1BFB003B1A29 /* LaunchScreen.storyboard */,
+				39DB563D218B1BF9003B1A29 /* Brisko2.xcdatamodeld */,
+			);
+			path = Brisko2;
+			sourceTree = "<group>";
+		};
+		39DB564D218B1BFB003B1A29 /* Brisko2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39DB564E218B1BFB003B1A29 /* Brisko2Tests.swift */,
+				39DB5650218B1BFB003B1A29 /* Info.plist */,
+			);
+			path = Brisko2Tests;
+			sourceTree = "<group>";
+		};
+		39DB5658218B1BFB003B1A29 /* Brisko2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				39DB5659218B1BFB003B1A29 /* Brisko2UITests.swift */,
+				39DB565B218B1BFB003B1A29 /* Info.plist */,
+			);
+			path = Brisko2UITests;
+			sourceTree = "<group>";
+		};
+		7A68156C66106A94ED721173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1436FBDB9A9679FD16BE670 /* libPods-Brisko2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2014B8409536BA6638F01DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DACAACB8890CC7D6A78A9CCB /* Pods-Brisko2.debug.xcconfig */,
+				FF2FAEE9B52C58BE49B38E2A /* Pods-Brisko2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39DB5632218B1BF9003B1A29 /* Brisko2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DB565E218B1BFB003B1A29 /* Build configuration list for PBXNativeTarget "Brisko2" */;
+			buildPhases = (
+				593573CD93E33A714D799348 /* [CP] Check Pods Manifest.lock */,
+				39DB562F218B1BF9003B1A29 /* Sources */,
+				39DB5630218B1BF9003B1A29 /* Frameworks */,
+				39DB5631218B1BF9003B1A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brisko2;
+			productName = Brisko2;
+			productReference = 39DB5633218B1BF9003B1A29 /* Brisko2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39DB5649218B1BFB003B1A29 /* Brisko2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DB5661218B1BFB003B1A29 /* Build configuration list for PBXNativeTarget "Brisko2Tests" */;
+			buildPhases = (
+				39DB5646218B1BFB003B1A29 /* Sources */,
+				39DB5647218B1BFB003B1A29 /* Frameworks */,
+				39DB5648218B1BFB003B1A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DB564C218B1BFB003B1A29 /* PBXTargetDependency */,
+			);
+			name = Brisko2Tests;
+			productName = Brisko2Tests;
+			productReference = 39DB564A218B1BFB003B1A29 /* Brisko2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39DB5654218B1BFB003B1A29 /* Brisko2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39DB5664218B1BFB003B1A29 /* Build configuration list for PBXNativeTarget "Brisko2UITests" */;
+			buildPhases = (
+				39DB5651218B1BFB003B1A29 /* Sources */,
+				39DB5652218B1BFB003B1A29 /* Frameworks */,
+				39DB5653218B1BFB003B1A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39DB5657218B1BFB003B1A29 /* PBXTargetDependency */,
+			);
+			name = Brisko2UITests;
+			productName = Brisko2UITests;
+			productReference = 39DB5655218B1BFB003B1A29 /* Brisko2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39DB562B218B1BF9003B1A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Matt Pancino";
+				TargetAttributes = {
+					39DB5632218B1BF9003B1A29 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					39DB5649218B1BFB003B1A29 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 39DB5632218B1BF9003B1A29;
+					};
+					39DB5654218B1BFB003B1A29 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 39DB5632218B1BF9003B1A29;
+					};
+				};
+			};
+			buildConfigurationList = 39DB562E218B1BF9003B1A29 /* Build configuration list for PBXProject "Brisko2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39DB562A218B1BF9003B1A29;
+			productRefGroup = 39DB5634218B1BF9003B1A29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39DB5632218B1BF9003B1A29 /* Brisko2 */,
+				39DB5649218B1BFB003B1A29 /* Brisko2Tests */,
+				39DB5654218B1BFB003B1A29 /* Brisko2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39DB5631218B1BF9003B1A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39208D28219851B70095EF76 /* Info.plist in Resources */,
+				39DB5644218B1BFB003B1A29 /* LaunchScreen.storyboard in Resources */,
+				39DB5641218B1BFB003B1A29 /* Assets.xcassets in Resources */,
+				39DB563C218B1BF9003B1A29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB5648218B1BFB003B1A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB5653218B1BFB003B1A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		593573CD93E33A714D799348 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brisko2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39DB562F218B1BF9003B1A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398E38E32191A87F00AC65E8 /* ViewController.swift in Sources */,
+				3971E0D22191ADE000967E74 /* newCookViewController.swift in Sources */,
+				39FFA4042196FACD0048F69A /* DateValueFormatter.swift in Sources */,
+				391B6F2A21A96F6200FF08E4 /* OvenVCViewController.swift in Sources */,
+				39FFA4032196FACD0048F69A /* DayAxisValueFormatter.swift in Sources */,
+				39FFA4062197A6700048F69A /* LineGraphExtension.swift in Sources */,
+				39E3C7E3218EEF06005A1D75 /* DataBaseController.swift in Sources */,
+				39DB563F218B1BF9003B1A29 /* Brisko2.xcdatamodeld in Sources */,
+				39DB5637218B1BF9003B1A29 /* AppDelegate.swift in Sources */,
+				39E931DD218DC6AB002BE256 /* HistoryCookViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB5646218B1BFB003B1A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB564F218B1BFB003B1A29 /* Brisko2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39DB5651218B1BFB003B1A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DB565A218B1BFB003B1A29 /* Brisko2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39DB564C218B1BFB003B1A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DB5632218B1BF9003B1A29 /* Brisko2 */;
+			targetProxy = 39DB564B218B1BFB003B1A29 /* PBXContainerItemProxy */;
+		};
+		39DB5657218B1BFB003B1A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39DB5632218B1BF9003B1A29 /* Brisko2 */;
+			targetProxy = 39DB5656218B1BFB003B1A29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39DB563A218B1BF9003B1A29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DB563B218B1BF9003B1A29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39DB5642218B1BFB003B1A29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39DB5643218B1BFB003B1A29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39DB565C218B1BFB003B1A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39DB565D218B1BFB003B1A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39DB565F218B1BFB003B1A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACAACB8890CC7D6A78A9CCB /* Pods-Brisko2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATCJVDWSB8;
+				INFOPLIST_FILE = Brisko2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BBQNation.Brisko2;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Brisko2/Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Debug;
+		};
+		39DB5660218B1BFB003B1A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2FAEE9B52C58BE49B38E2A /* Pods-Brisko2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATCJVDWSB8;
+				INFOPLIST_FILE = Brisko2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BBQNation.Brisko2;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Brisko2/Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Release;
+		};
+		39DB5662218B1BFB003B1A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATCJVDWSB8;
+				INFOPLIST_FILE = Brisko2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BBQNation.Brisko2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brisko2.app/Brisko2";
+			};
+			name = Debug;
+		};
+		39DB5663218B1BFB003B1A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATCJVDWSB8;
+				INFOPLIST_FILE = Brisko2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BBQNation.Brisko2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brisko2.app/Brisko2";
+			};
+			name = Release;
+		};
+		39DB5665218B1BFB003B1A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATCJVDWSB8;
+				INFOPLIST_FILE = Brisko2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BBQNation.Brisko2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Brisko2;
+			};
+			name = Debug;
+		};
+		39DB5666218B1BFB003B1A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATCJVDWSB8;
+				INFOPLIST_FILE = Brisko2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BBQNation.Brisko2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Brisko2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39DB562E218B1BF9003B1A29 /* Build configuration list for PBXProject "Brisko2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB565C218B1BFB003B1A29 /* Debug */,
+				39DB565D218B1BFB003B1A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DB565E218B1BFB003B1A29 /* Build configuration list for PBXNativeTarget "Brisko2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB565F218B1BFB003B1A29 /* Debug */,
+				39DB5660218B1BFB003B1A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DB5661218B1BFB003B1A29 /* Build configuration list for PBXNativeTarget "Brisko2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB5662218B1BFB003B1A29 /* Debug */,
+				39DB5663218B1BFB003B1A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39DB5664218B1BFB003B1A29 /* Build configuration list for PBXNativeTarget "Brisko2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB5665218B1BFB003B1A29 /* Debug */,
+				39DB5666218B1BFB003B1A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39DB563D218B1BF9003B1A29 /* Brisko2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39DB563E218B1BF9003B1A29 /* Brisko2.xcdatamodel */,
+			);
+			currentVersion = 39DB563E218B1BF9003B1A29 /* Brisko2.xcdatamodel */;
+			path = Brisko2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39DB562B218B1BF9003B1A29 /* Project object */;
+}

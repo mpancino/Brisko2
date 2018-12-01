@@ -1,0 +1,1 @@
+../../../Particle-SDK/ParticleSDK/SDK/ParticleSession.h

@@ -1,0 +1,6 @@
+module Pods_Brisko2 {
+  umbrella header "Pods-Brisko2-umbrella.h"
+
+  export *
+  module * { export * }
+}
