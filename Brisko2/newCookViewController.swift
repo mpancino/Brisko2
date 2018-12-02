@@ -28,7 +28,7 @@ class NewCookViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var p4slider: UISlider!
     
     
-    
+    // Test on pullll
    
     
     override func viewDidLoad() {
